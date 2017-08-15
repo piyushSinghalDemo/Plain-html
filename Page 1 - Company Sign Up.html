@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/profile.css" />
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body class="body1" style="background: #fff url(images/Company Sign Up Page Background.jpg) no-repeat fixed center;">
+	<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Company Reviews</a></li>
+        <li><a href="#">Hire</a></li>
+        <li><a href="#">RFP</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="modal" data-target="#myModal"> Sign Up</a></li>
+        <li><a href="#"> Write Review</a></li>
+		<li><a href="#"> For Company </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div class="container-fluid ">
+	<div class="row">
+	
+		<div class="col-md-offset-4 col-sm-offset-4 col-md-4 col-sm-4 side-kam">
+			<div class="welcome-page1">
+				<div class="head-wel text-center">
+					<span class="bold block" style="font-size: 18px;">Sign in to Organization Center</span>
+					<!-- <h2></h2> -->
+				</div>
+			</div>
+		</div>
+			<div class="col-md-offset-4 col-sm-offset-4 col-md-4 col-sm-4 side-kam">
+			<div class="welcome-page2 paddingBtm0">
+				<div class="bottom-part">
+					<div class="welcome-input">
+					<input type="text" placeholder="Work Email">
+					
+					<input type="password" placeholder="Password">
+					<div class="text-center">
+					<a href="#">Forgot Password</a>
+					</div>
+					<div class="company-name-input text-center wel-cm sub-btn">
+               
+                	<button type="submit" data-toggle="modal" data-target="#exit-db">Sign In</button>
+		</div>
+		
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="col-md-offset-4 col-sm-offset-4 col-md-4 col-sm-4 side-kam">
+			<div class="welcome-page1">
+				<div class="head-wel text-center">
+					<h5>No Account? <a href="#">Sign Up Now</a></h5>
+				</div>
+			</div>
+		</div>
+		
+		</div>
+
+	
+	
+	<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content sign-up-pop">
+      
+      <div class="modal-body">
+        	<div class="social-button">
+				<button type="button"><span class="pop-sign"><i class="fa fa-google-plus" aria-hidden="true"></i></span>Sign in with Google</button>
+				<button type="button"><span class="pop-sign"><i class="fa fa-facebook-square" aria-hidden="true"></i></span>Sign in with Facebook</button>
+				<button type="button"><span class="pop-sign"><i class="fa fa-linkedin" aria-hidden="true"></i></span>Sign in with LinkedIn</button>
+			</div>
+			
+			<div class="or text-center">
+				<p>OR</p>
+			</div>
+			
+			<div class="row pop-input">
+				<div class="col-md-12">
+					<input type="text" placeholder="Name">
+					<input type="text" placeholder="Email">
+					<input type="password" placeholder="Password">
+				</div>
+
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
+					<label class="checkbox-inline"><input type="checkbox" value="">I accept the <a href="">Terms And Conditions</a></label>
+					<div class="company-name-input text-center">
+                	<button type="submit" style="width:100%">Register</button>
+		</div>
+				</div>
+			</div>
+      </div>
+      <div class="modal-footer">
+	  	<div class="text-center">
+	  	<p>Already have an account <a href="" data-toggle="modal" data-target="#Login">Sign In</a></p>
+		</div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div id="Login" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content sign-up-pop">
+      
+      <div class="modal-body">
+			<div class="text-center comp-page">
+				<p>Sign in to Profile</p>
+			</div>
+			
+			<div class="row pop-input">
+				<div class="col-md-12">
+					<input type="text" placeholder="Email">
+					<input type="password" placeholder="Password">
+				</div>
+
+			</div>
+			<div class="or text-center">
+				<p><u>Forgot password</u></p>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="company-name-input text-center">
+                	<button type="submit" style="width:100%">Sign In</button>
+		</div>
+				</div>
+			</div>
+      </div>
+      <div class="modal-footer">
+	  	<div class="text-center">
+	  	<p>Don't Have an Account <a href="">Sign up</a></p>
+		</div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html>

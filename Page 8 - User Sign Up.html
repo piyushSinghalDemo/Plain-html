@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> </title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/bootstrap-tagsinput.css" />
+<link rel="stylesheet" href="css/profile.css" />
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-tagsinput.js"></script>
+
+</head>
+<body class="body">
+	<nav class="navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Company Reviews</a></li>
+        <li><a href="#">Hire</a></li>
+        <li><a href="#">RFP</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"> Sign Up</a></li>
+        <li><a href="#"> Write Review</a></li>
+		<li><a href="#"> For Company </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-md-offset-3 col-sm-offset-3 col-sm-6 col-md-6">
+    	<div class="pg-5-sec">
+			<!-- <form class="form-inline">
+				 <div class="form-group form-page">
+   					 <label for="email">Company</label>
+  					  <input type="text">
+ 				 </div>
+			</form> -->
+			
+			<div class="row">
+				<div class="col-md-12">
+				<div class="overall">
+					<span class="font13 bold block bottom7">Dummy</span>
+					<input type="text" class="" placeholder="Company Name">
+					<input type="text" class="" placeholder="Review Title">
+					<span class="font14 bold block top15">Sales Experience</span>
+					<fieldset class="rating rtng" style="">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+</fieldset>
+					
+					<br>
+
+					<!-- <select class="drop top15 overallInput">
+						<option>Product Category</option>
+						<option>1</option>
+						<option>1</option>
+						<option>1</option>
+						<option>1</option>
+					</select> -->
+					<br>
+					<!-- <input type="text" class="top15" placeholder="Sub product category"> -->
+					
+					
+					<div class="sales-exp">
+							<div class="row clearfix">
+									<div class="col-sm-6">
+										<input type="text" placeholder="dummy">
+									</div>
+									<div class="col-sm-6">
+										<input type="text" placeholder="dummy">
+									</div>
+							</div>
+							<div class="row clearfix top15">
+								<div class="col-sm-12">
+								<span class="font13 bold block bottom7">Describe sales experience with the company</span>
+								<textarea class="width100"></textarea>
+								</div>
+							</div>
+							<div class="row clearfix top15">
+							<div class="col-sm-6">
+							<span class="font14 bold block bottom7">Rate sales difficulty</span>
+							<fieldset class="rating rtng" style="">
+							    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+							    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+							    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+							    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+							    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+							    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+							    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+							    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+							    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+							    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+							</fieldset>
+							</div>
+							<div class="col-sm-6">
+							<span class="font14 bold block bottom7">Rate Negotiation difficulty</span>
+							<fieldset class="rating rtng" style="">
+							    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+							    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+							    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+							    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+							    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+							    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+							    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+							    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+							    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+							    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+							</fieldset>
+							</div>
+						</div>	
+						<div class="row clearfix top15">
+							<div class="col-sm-6">
+								<input type="text" placeholder="Decision Time">
+							</div>
+							<div class="col-sm-6">
+								<input type="text" placeholder="Departments Involved">
+							</div>
+							<div class="col-sm-6">
+								<input type="text" placeholder="Key Decision Makers">
+							</div>
+							<div class="col-sm-6">
+								<input type="text" placeholder="Success Factors">
+							</div>
+						</div>
+						<div class="row clearfix top15">
+							<div class="col-sm-12">
+								<span class="font14 bold block bottom7">What was good?</span>
+								<textarea class="width100"></textarea>
+							</div>
+							<div class="col-sm-12 top15">
+								<span class="font14 bold block bottom7">What could be better?</span>
+								<textarea class="width100"></textarea>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				</div>
+				</div>
+				<div class="row clearfix">
+					<div class="col-sm-12">
+						<button class="submit" type="submit">Skip</button>	
+						<button type="button" class="submit right">Next</button> 
+					</div>
+				</div>
+			
+		</div>
+	</div>
+		</div>
+		</div>
+		
+	<div class="footer">
+		<div class="container cont">
+			<div class="row">
+				<div class="col-md-3 none">
+					<div class="footer-logo">
+						<img src="images/footer_logo.png" class="img-responsive">
+					</div>
+					<div class="social-icons">
+						<i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-linkedin" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-heading">
+						<h5>CONTACT</h5>
+						<h3>SALESDOOR</h3>
+					</div>
+						<div class="footer-content">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i> Salesdoor, Victoria St 355, Australia</p>
+							<p><i class="fa fa-envelope-o" aria-hidden="true"></i> Email: Hello@salesdoor.com</p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i> Phone: +99(101)001</p>
+						</div>
+					</div>
+				<div class="col-md-3">
+					<div class="footer-heading">
+						<h5>FOR</h5>
+						<h3>COMPANIES</h3>
+					</div>
+						<div class="footer-content">
+							<p>Duis maximus, nisi eu maximus vestibulum Nullam nulla tortor, dignissim sed megna at, vestibullam tincidunt lectus Praesent maximus mi vulputate nec. Fusce tempor sem</p>
+						</div>
+					</div>
+				<div class="col-md-3">
+					<div class="footer-heading">
+						<h5>LATEST</h5>
+						<h3>BLOGS</h3>
+					</div>
+						<div class="footer-content">
+							<div class="row">
+								<div class="col-md-2">
+									<img src="images/footer-img.jpg" class="img-circle">
+								</div>
+								
+								<div class="col-md-10">
+									<p>Good contain in safe place</p>
+									<p>Mauris id enim id purus ornare thinchinf Aeneam riusvel </p>
+									<a href="">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-12 none">
+						<div class="app app1">
+							<p>2013-2017 Salesdoor. All rights reserved</p>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
